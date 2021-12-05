@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dark.appsaloon.EditProfile">
+
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="الإسم"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="رقم الجوال"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="240dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="البريد الإلكتروني"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_address"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="العنوان"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_username"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="اسم المستخدم"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/up_edit_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تحديث كلمة السر"
+                android:textColor="@color/Teal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/c_pass_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_cpass"
+                android:layout_width="240dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="إعادة كلمة المرور"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/new_pass_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_newpass"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="كلمة المرور الجديدة"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/confirm_pass_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_newpass2"
+                android:layout_width="240dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="تأكيد كلمة المرور"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="إلغاء"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/UpdateProfileUser"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="تحديث الملف الشخصي"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

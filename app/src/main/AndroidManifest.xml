@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dark.appsaloon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBcJUdhdSWzmhsM4MZsDksq0EhGEwWHYls" />
+
+        <activity
+            android:name=".Login"
+            android:label="Eve Station App - Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Eve Station App - Register" />
+        <activity
+            android:name=".SalonManager.SalonDashboard"
+            android:label="Manager Dashboard" />
+        <activity android:name=".EditProfile" />
+        <activity
+            android:name=".SalonManager.ViewAppointments"
+            android:label="Appointments" />
+        <activity
+            android:name=".SalonManager.respond_customer"
+            android:label="Respond Customer" />
+        <activity
+            android:name=".SalonManager.AddSalon"
+            android:label="Add Salon Location" />
+        <activity
+            android:name=".SalonManager.AddService"
+            android:label="Add Service(s)" />
+        <activity
+            android:name=".SalonManager.DisplayServices"
+            android:label="All Services" />
+        <activity
+            android:name=".SalonManager.EditService"
+            android:label="Edit Service" />
+        <activity
+            android:name=".Customer.UserDashboard"
+            android:label="Customer Dashboard" />
+        <activity
+            android:name=".Customer.SearchSalon"
+            android:label="Search Salon" />
+        <activity
+            android:name=".Customer.ViewServices"
+            android:label="Viewing Services" />
+        <activity
+            android:name=".Customer.SearchServices"
+            android:label="Search Services" />
+        <activity
+            android:name=".Customer.book_service"
+            android:label="Book Service" />
+        <activity
+            android:name=".Customer.Payment"
+            android:label="Payment" />
+        <activity
+            android:name=".Customer.ViewServiceDetails"
+            android:label="Viewing service details" />
+        <activity android:name=".Customer.SelectedServices" />
+        <activity android:name=".SalonManager.Rating"></activity>
+    </application>
+
+</manifest>

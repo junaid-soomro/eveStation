@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dark.appsaloon.Register">
+
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_name"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="الاسم"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="رقم الجوال"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_email"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="الإيميل"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_address"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="العنوان"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_username"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="اسم المسنخدم"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/White" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="الرقم السري"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:paddingTop="10dp"
+            android:paddingBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_marginLeft="85dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="20dp"
+                    android:text="عميل"
+                    android:textColor="@color/Turquoise"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/manager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مدير"
+                    android:textColor="@color/Turquoise"
+                    android:textSize="17dp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+            android:id="@+id/select_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Select City"
+                android:textColor="@color/Teal"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/reg_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="إلغاء"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Register"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@color/Plum"
+                android:gravity="center"
+                android:text="تأكيد"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

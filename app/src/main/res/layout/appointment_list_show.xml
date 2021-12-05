@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="17dp">
+
+            <TextView
+                android:id="@+id/customer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nora"
+                android:textColor="@color/SteelBlue"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/textv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+
+                android:text="الإسم"
+                android:textColor="@color/Black"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="46dp">
+
+            <TextView
+                android:id="@+id/appointment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="TextView"
+                android:textColor="@color/SteelBlue"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:layout_marginStart="60dp"
+                android:text="الوقت"
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="234dp"
+            tools:layout_editor_absoluteY="76dp">
+
+
+            <TextView
+                android:id="@+id/payment_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="paypal"
+                android:textColor="@color/SteelBlue"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="313dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="حالة الدفع"
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="38dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="104dp">
+
+            <TextView
+                android:id="@+id/appoint_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TextView"
+                android:textColor="@color/SteelBlue"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:text="حالة الموعد"
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="101dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/White"
+            android:id="@+id/user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="192dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:layout_marginStart="38dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/view_details"
+        app:layout_constraintStart_toEndOf="@+id/view_details">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/appoint_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/SteelBlue"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="285dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="السعر"
+            android:textColor="@color/Black"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+            android:id="@+id/appointment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/SteelBlue"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="التاريخ"
+            android:textColor="@color/Black"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lon"
+        app:layout_constraintEnd_toStartOf="@+id/lon"
+        app:layout_constraintStart_toStartOf="@+id/lon" />
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_details"
+        android:layout_width="138dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/Plum"
+        android:gravity="center"
+        android:text="عرض التفاصيل"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="اسم الصالون"
+            android:textColor="@color/SteelBlue"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteY="17dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="المدينة"
+            android:textColor="@color/SteelBlue"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rate"
+            android:textColor="@color/SteelBlue"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="91dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout13"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout10">
+
+        <TextView
+            android:id="@+id/saloon_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginBottom="10dp"
+            android:text="Roze Beauty parlour"
+            android:textColor="@color/Tomato"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+
+        <TextView
+            android:id="@+id/salon_view_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textColor="@color/Tomato"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <RatingBar
+            android:id="@+id/salon_rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="81dp"
+            android:layout_height="28dp"
+            android:numStars="5"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="87dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout11"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/salon_view_location"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/Plum"
+            android:text="الموقع"
+            android:textColor="@color/White"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <Button
+            android:id="@+id/salon_view_services"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/Plum"
+            android:text="View Services"
+            android:textColor="@color/White"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <Button
+
+            android:id="@+id/salon_view_rate_salon"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:background="@color/Plum"
+            android:text="Rate salon"
+            android:textColor="@color/White"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

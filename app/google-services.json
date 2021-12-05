@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774798644409",
+    "firebase_url": "https://evestation-196612.firebaseio.com",
+    "project_id": "evestation-196612",
+    "storage_bucket": "evestation-196612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774798644409:android:c3edc2bc821bd6fd",
+        "android_client_info": {
+          "package_name": "com.example.dark.appsaloon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774798644409-d5daua7jldkrp2ch67h8f1hlpdfakhgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dark.appsaloon",
+            "certificate_hash": "d2d093087726591ea9212106e7c597e190190b12"
+          }
+        },
+        {
+          "client_id": "774798644409-kdg7je9u2c9mbggsjbhc0u5m0m34s8sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzOyZqRvK6EtQU628RGxvgSWp9GxFW7kI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774798644409-kdg7je9u2c9mbggsjbhc0u5m0m34s8sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
